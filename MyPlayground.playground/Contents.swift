@@ -76,3 +76,7 @@ for i in 1...array.count {
 for i in array {
     print(i)
 }
+
+func isIdentical(string1: String, string2: String) -> Bool { //Need to specify the return type!!!!!!!
+    return string1.sorted() == string2.sorted()
+}
